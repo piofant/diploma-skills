@@ -27,14 +27,14 @@
 Каждый скилл — это папка с `SKILL.md`. Claude Code автоматически находит их в `~/.claude/skills/`.
 
 ```bash
-git clone https://github.com/vedulix/diploma-skills.git
+git clone https://github.com/piofant/diploma-skills.git
 cp -r diploma-skills/diploma-antiplag diploma-skills/diploma-format diploma-skills/diploma-defense ~/.claude/skills/
 ```
 
 Или симлинком, чтобы тянуть обновления через `git pull`:
 
 ```bash
-git clone https://github.com/vedulix/diploma-skills.git ~/diploma-skills
+git clone https://github.com/piofant/diploma-skills.git ~/diploma-skills
 ln -s ~/diploma-skills/diploma-antiplag ~/.claude/skills/diploma-antiplag
 ln -s ~/diploma-skills/diploma-format   ~/.claude/skills/diploma-format
 ln -s ~/diploma-skills/diploma-defense  ~/.claude/skills/diploma-defense
